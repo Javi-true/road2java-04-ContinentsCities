@@ -1,6 +1,10 @@
 public class Continents {
     int continent = 4;
 
+    //constructor method.
+    public Continents(){
+
+    }
 
     public String continentIdentification(){
         switch (continent){
