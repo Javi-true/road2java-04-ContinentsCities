@@ -10,25 +10,25 @@ public class Continents {
         switch (continent){
             case 1:
                 return "North America: Mexico City, Mexico";
-                break;
+                //break;
             case 2:
                 return "South America: Sao Paulo, Brazil";
-                break;
+                //break;
             case 3:
                 return "Europe: Moscow, Russia";
-                break;
+                //break;
             case 4:
                 return "Africa: Lagos, Nigeria";
-                break;
+                //break;
             case 5:
                 return "Asia: Shanghai, China";
-                break;
+                //break;
             case 6:
                 return "Australia: Sydney, Australia";
-                break;
+                //break;
             case 7:
                 return "Antarctica: McMurdo Station, US";
-                break;
+                //break;
             default:
                 return "Undefined continent!";
         }
@@ -36,5 +36,8 @@ public class Continents {
 
     public static void main(String[] args){
 
+        Continents continent1 = new Continents();
+
+        System.out.println(continent1.continentIdentification());
     }
 }
